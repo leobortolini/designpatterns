@@ -1,5 +1,8 @@
 package abstractfactory;
 
+/*
+ * classe do veiculo xoffroad, implementa a interface veiculo
+ */
 public class XOffRoad implements Veiculo {
 
 	@Override

@@ -1,5 +1,7 @@
 package abstractfactory;
-
+/*
+ * Classe que instancia e retorna as factories, dependendo do parâmetro
+ */
 public class FactoryProducer {
 	
 	public static AbstractFactory getFactory(String variante) {

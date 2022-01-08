@@ -1,5 +1,8 @@
 package abstractfactory;
 
+/*
+ * Classe factory de veículos offroad, extende a factory abstrata
+ */
 public class OffRoadFactory extends AbstractFactory {
 	@Override
 	public Veiculo getVeiculo(String modeloVeiculo) {

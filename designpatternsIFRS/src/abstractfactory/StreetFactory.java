@@ -1,5 +1,8 @@
 package abstractfactory;
 
+/*
+ * Classe factory de veículos street, extende a factory abstrata
+ */
 public class StreetFactory extends AbstractFactory {
 
 	@Override

@@ -1,5 +1,9 @@
 package abstractfactory;
 
+
+/*
+ * classe do veiculo ystreet, implementa a interface veiculo
+ */
 public class YStreet implements Veiculo {
 
 	@Override
