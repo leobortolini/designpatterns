@@ -9,7 +9,7 @@ public class Voo implements Comando {
 	public void pouso() {
 		if(atcMediator.estaDisponivel()) {
 			System.out.println("Pouso realizado com sucesso!");
-			atcMediator.setDisponibilidade(false); //a pista est� ocupada
+			atcMediator.setDisponibilidade(false); //a pista está ocupada
 		}
 		else {	
 			System.out.println("Aguarde pista dispon�vel");
@@ -22,6 +22,6 @@ public class Voo implements Comando {
 	}
 	public void estacionado() {
 		System.out.println("Voo estacionado.");
-		atcMediator.setDisponibilidade(true);//a pista est� dispon�vel
+		atcMediator.setDisponibilidade(true);//a pista está disponível
 	}
 }
