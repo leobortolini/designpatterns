@@ -6,7 +6,9 @@ import builder.components.Engine;
 import builder.components.GPSNavigator;
 import builder.components.Transmission;
 import builder.components.TripComputer;
-
+/*
+ * Classe do builder de Car, implementa a interface Builder
+ */
 public class CarBuilder implements Builder {
 
 	private CarType type;

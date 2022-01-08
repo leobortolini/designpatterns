@@ -2,6 +2,9 @@ package builder.components;
 
 import builder.cars.Car;
 
+/*
+ * classe que representa o computador de bordo dos carros
+ */
 public class TripComputer {
 
     private Car car;

@@ -7,6 +7,10 @@ import builder.components.GPSNavigator;
 import builder.components.Transmission;
 import builder.components.TripComputer;
 
+/*
+ * classe Director, que configura o funcionamento dos builders.
+ */
+
 public class Director {
 
     public void constructSportsCar(Builder builder) {

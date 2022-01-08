@@ -6,6 +6,10 @@ import builder.components.GPSNavigator;
 import builder.components.Transmission;
 import builder.components.TripComputer;
 
+/*
+ * interface Builder, a ser implementada pelos Builders
+ */
+
 public interface Builder {
 
 	void setCarType(CarType type);

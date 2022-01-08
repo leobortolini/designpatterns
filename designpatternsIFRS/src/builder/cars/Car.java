@@ -4,7 +4,9 @@ import builder.components.Engine;
 import builder.components.GPSNavigator;
 import builder.components.Transmission;
 import builder.components.TripComputer;
-
+/*
+ * classe dos carros
+ */
 public class Car {
     private final CarType carType;
     private final int seats;

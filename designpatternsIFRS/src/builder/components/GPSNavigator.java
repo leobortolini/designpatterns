@@ -1,5 +1,7 @@
 package builder.components;
-
+/*
+ * classe que representa o GPS dos carros
+ */
 public class GPSNavigator {
     private String route;
 
