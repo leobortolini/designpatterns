@@ -1,16 +1,16 @@
 
-// COMPOSITE (CONTÊINER)
-
-// A classe Caixa implementa a interface Item, representando um Produto composto.
-// Um objeto Caixa pode conter Produtos ou até mesmo outras Caixas contendo Produtos.
-
+/*
+ * classe composite
+ */
 package composite;
 
 import java.util.List;
 
 public class Caixa implements Item {
-	// Lista para armazenar referências aos subelementos. 
-	// Armazena tanto Folha como Contêiner, por isso deve ser declarado com um tipo de interface Componente.
+	
+	/*
+	 * lista que armazena folhas e outros containers
+	 */
 	private List<Item> itens;
 	
 	public Caixa(List<Item> itens) {
@@ -25,9 +25,9 @@ public class Caixa implements Item {
 		this.itens.remove(item);
 	}
 
-	// Percorre recursivamente todos os filhos, coletando e somando seus resultados. 
-	// Como os filhos do Contêiner passam essas chamadas para seus próprios filhos e assim em diante, 
-	// toda a árvore de objetos é percorrida como resultado.
+	/*
+	 * Percorre todos itens armazenados e coleta os precos
+	 */
 	@Override
 	public double calcularPrecoFinal() {
 		double precoFinal = 0;

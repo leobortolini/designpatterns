@@ -1,9 +1,8 @@
-
-// LEAF (FOLHA)
-
-// A classe Produto implementa a interface Item, representando um Produto simples.
-
 package composite;
+
+/*
+ * classe que representa os produtos (folhas), implementa a interface Item
+ */
 
 public class Produto implements Item {
 	private String nome;
@@ -14,7 +13,7 @@ public class Produto implements Item {
 		this.preco = preco;
 	}
 
-	// Retorna o preço do produto
+	// Retorna o preÃ§o do produto
 	@Override
 	public double calcularPrecoFinal() {
 		return preco;
