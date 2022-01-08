@@ -1,4 +1,4 @@
-package com.mateusolorenzatti.Implementation;
+package bridge.Implementation;
 
 public interface Transporte {
     abstract public void transportar();

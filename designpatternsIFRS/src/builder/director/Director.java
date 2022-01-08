@@ -1,11 +1,11 @@
-package application.director;
+package builder.director;
 
-import application.builders.Builder;
-import application.cars.CarType;
-import application.components.Engine;
-import application.components.GPSNavigator;
-import application.components.Transmission;
-import application.components.TripComputer;
+import builder.builders.Builder;
+import builder.cars.CarType;
+import builder.components.Engine;
+import builder.components.GPSNavigator;
+import builder.components.Transmission;
+import builder.components.TripComputer;
 
 public class Director {
 

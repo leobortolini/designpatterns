@@ -1,6 +1,6 @@
-package com.mateusolorenzatti.Abstraction;
+package bridge.Abstraction;
 
-import com.mateusolorenzatti.Implementation.Transporte;
+import bridge.Implementation.Transporte;
 
 public class Onibus extends Veiculo {
 

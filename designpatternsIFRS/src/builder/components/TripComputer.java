@@ -1,6 +1,6 @@
-package application.components;
+package builder.components;
 
-import application.cars.Car;
+import builder.cars.Car;
 
 public class TripComputer {
 

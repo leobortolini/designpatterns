@@ -1,4 +1,4 @@
-package com.mateusolorenzatti.Implementation;
+package bridge.Implementation;
 
 public class Cargas implements Transporte {
     @Override

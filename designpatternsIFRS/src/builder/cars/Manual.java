@@ -1,9 +1,9 @@
-package application.cars;
+package builder.cars;
 
-import application.components.Engine;
-import application.components.GPSNavigator;
-import application.components.Transmission;
-import application.components.TripComputer;
+import builder.components.Engine;
+import builder.components.GPSNavigator;
+import builder.components.Transmission;
+import builder.components.TripComputer;
 
 public class Manual {
     private final CarType carType;

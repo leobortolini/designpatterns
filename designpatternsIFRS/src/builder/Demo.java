@@ -1,10 +1,10 @@
-package application;
+package builder;
 
-import application.builders.CarBuilder;
-import application.builders.CarManualBuilder;
-import application.cars.Car;
-import application.cars.Manual;
-import application.director.Director;
+import builder.builders.CarBuilder;
+import builder.builders.CarManualBuilder;
+import builder.cars.Car;
+import builder.cars.Manual;
+import builder.director.Director;
 
 public class Demo {
 
