@@ -17,7 +17,7 @@ public abstract class AbstractHandler implements HandlerInterface{
 		String result = this.process(request);
 		
 		if ((result == null || result.isEmpty()) && this.next!=null) {
-			System.out.println("Requisi��o negada: Passando para o pr�ximo handler...");
+			System.out.println("Requisição negada: Passando para o próximo handler...");
 			result = this.next.handle(request);
 		}
 		
