@@ -1,4 +1,4 @@
-package mapper;
+package memento;
 
 public class Memento {
    private String state;

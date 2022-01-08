@@ -1,4 +1,4 @@
-package mapper;
+package memento;
 
 public class Originator {
    private String state;
