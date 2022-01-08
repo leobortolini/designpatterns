@@ -1,5 +1,9 @@
 package facade;
 
+/*
+ * classe que representa Memoria
+ */
+
 public class Memoria {
 	
 	public void CarregaDado() {

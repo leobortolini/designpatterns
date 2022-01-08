@@ -1,6 +1,8 @@
 package facade;
 
-
+/*
+ * Classe FACADE que traz somente operações com o HD, memoria e processador
+ */
 public class ComputadorFACADE {
 
 	public HardDrive harddrive;
@@ -20,9 +22,6 @@ public class ComputadorFACADE {
 		memoria.CarregaDado();
 		processador.ProcessaDado();
 		
-		
 	}
-
-
 	
 }
