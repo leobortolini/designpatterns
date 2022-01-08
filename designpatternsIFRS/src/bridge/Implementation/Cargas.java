@@ -1,5 +1,10 @@
 package bridge.Implementation;
 
+
+/*
+ * implementação da classe Cargas, que implementa transporte, ou seja, que pode estar em alguma classe que implemente veiculo
+ */
+
 public class Cargas implements Transporte {
     @Override
     public void transportar() {

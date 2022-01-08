@@ -2,6 +2,10 @@ package bridge.Abstraction;
 
 import bridge.Implementation.Transporte;
 
+/*
+ * Implementação da classe Caminhao, que estende Veiculo
+ */
+
 public class Caminhao extends Veiculo {
 
     public Caminhao(String marca, Transporte transporte) {
