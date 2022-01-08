@@ -1,9 +1,8 @@
 package flyweight;
-/*
-Interface do jogador
-Tanto CT como TR precisa ter uma missão e uma arma
-*/
 
+/*
+ * interface que os jogadores vao implementar
+ */
 interface Player
 {
     public void assignWeapon(String weapon);

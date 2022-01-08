@@ -8,6 +8,9 @@ public class CounterStrike {
 
 
     public static void main(String args[]) {
+    	/*
+    	 * laço de repetição que instancia 4 players, utilizando o type e as armas já "pré-carregados"
+    	 */
         for (int i = 0; i < 4; i++) {
             Player player = PlayerFactory.getPlayer(getRandomPlayerType());
 

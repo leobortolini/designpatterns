@@ -1,5 +1,7 @@
 package flyweight;
-
+/*
+ * classe que representa CounterTerrorist, implementa a interface Player
+ */
 class CounterTerrorist implements Player {
     // Intrínseco
     private final String TASK;

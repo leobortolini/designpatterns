@@ -1,5 +1,8 @@
 package flyweight;
 
+/*
+ * classe que representa Terrorist, implementa a interface Player
+ */
 class Terrorist implements Player
 {
     // Intrínseco
