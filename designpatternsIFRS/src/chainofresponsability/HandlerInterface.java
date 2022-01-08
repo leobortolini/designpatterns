@@ -1,9 +1,9 @@
 package chainofresponsability;
 
 public interface HandlerInterface {
-	//Recebe o pr�ximo objeto
+	//Recebe o próximo objeto
 	public HandlerInterface next(HandlerInterface next);
 	
-	//Trata a requisi��o
+	//Trata a requisião
 	public String handle(String request);
 }

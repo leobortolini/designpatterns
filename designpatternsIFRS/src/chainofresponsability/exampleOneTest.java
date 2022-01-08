@@ -8,7 +8,9 @@ public class exampleOneTest {
 		LogInfoHandler logInfoHandler = new LogInfoHandler();
 		LogWarningHandler logWarningHandler = new LogWarningHandler();
 		LogErrorHandler logErrorHandler = new LogErrorHandler();
-		
+		/*
+		 * iniciando a sequencia de processamentos
+		 */
 		logInfoHandler.next(logWarningHandler);
 		logWarningHandler.next(logErrorHandler);
 		

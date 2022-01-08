@@ -11,7 +11,11 @@ public abstract class AbstractHandler implements HandlerInterface{
 		return handler;
 	}
 
-	//Na implementa��o cl�ssica deseja-se que o m�todo handle() n�o possa ser modificado por classes filhas
+	
+	/*
+	 * o método handle nao é modificado pelas classes filhas
+	 */
+	
 	@Override
 	final public String handle(String request) { 
 		String result = this.process(request);

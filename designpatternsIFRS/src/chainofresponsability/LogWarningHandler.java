@@ -1,5 +1,8 @@
 package chainofresponsability;
 
+/*
+ * implementação do handler de warningerror
+ */
 public class LogWarningHandler extends AbstractHandler{
 
 	@Override
@@ -9,7 +12,7 @@ public class LogWarningHandler extends AbstractHandler{
 		
 		if(request=="warning") {
 			result = "Requisição aceita:Tratando requisição de log de WARNING.";
-			/* Aqui poderia ser usada qualquer l�gica, como por exemplo 
+			/* Aqui poderia ser usada qualquer lógica, como por exemplo 
 			   gravar o valor em um arquivo, mandar por e-mail, gravar no banco, etc.. 
 			 */
 		}

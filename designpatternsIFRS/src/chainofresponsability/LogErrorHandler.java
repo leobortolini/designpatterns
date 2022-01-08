@@ -1,5 +1,9 @@
 package chainofresponsability;
 
+/*
+ * implementação do handler de logerror
+ */
+
 public class LogErrorHandler extends AbstractHandler{
 
 	@Override
@@ -9,7 +13,7 @@ public class LogErrorHandler extends AbstractHandler{
 		
 		if(request=="error") {
 			result = "Requisição aceita: Tratando requisição de log de ERRO.";
-			/* Aqui poderia ser usada qualquer l�gica, como por exemplo 
+			/* Aqui poderia ser usada qualquer lógica, como por exemplo 
 			   gravar o valor em um arquivo, mandar por e-mail, gravar no banco, etc.. 
 			 */
 		}
